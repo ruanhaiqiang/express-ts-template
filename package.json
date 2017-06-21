@@ -1,10 +1,11 @@
 {
   "name": "express-ts-template",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "author": {
     "name": "rill",
-    "email": "ryl60007879@qq.com"
+    "email": "ryl60007879@qq.com",
+    "url": "https://github.com/ruanhaiqiang"
   },
   "engines": {
     "vscode": "^1.31.1",
@@ -16,6 +17,12 @@
     "template",
     "jade"
   ],
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruanhaiqiang/express-ts-template"
+  },
   "scripts": {
     "postinstall":"tsc -p . ",
     "start": "node ./bin/www"
