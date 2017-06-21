@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "outDir": "dist",
+        "sourceMap": true,
+        "rootDir": "."
+    },
+    "include": [
+        "*.ts",
+        "routes/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        ".vscode-test"
+    ]
+}

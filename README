@@ -1,0 +1,17 @@
+
+#功能
+主要提供一个express+typescript项目模板，用于用ts开发express web项目
+
+# 使用帮助
+
+### 
+
+### 目录结构
+    --.vscode                               --vscode项目依赖目录
+    --bin                                   --express www所在目录
+    --dist                                  --ts文件编译后所在目录
+    --public                                --ui相关源文件，包括js，css，image等
+    --routes                                --express routes typescript文件目录
+    --view                                  --jade页面
+    --package.json
+    --tsconfig.json
