@@ -2,14 +2,10 @@
   "name": "express-ts-template",
   "version": "0.0.1",
   "private": false,
-  "author": {
-    "name": "rill",
-    "email": "ryl60007879@qq.com",
-    "url": "https://github.com/ruanhaiqiang"
-  },
+  "author": "rill <ryl60007879@qq.com> (https://github.com/ruanhaiqiang)",
   "engines": {
     "vscode": "^1.31.1",
-    "typescript":"^2.3.4"
+    "typescript": "^2.3.4"
   },
   "keywords": [
     "express",
@@ -18,17 +14,16 @@
     "jade"
   ],
   "license": "MIT",
-
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruanhaiqiang/express-ts-template"
+    "url": "git+https://github.com/ruanhaiqiang/express-ts-template.git"
   },
   "scripts": {
-    "postinstall":"tsc -p . ",
+    "postinstall": "tsc -p . ",
     "start": "node ./bin/www"
   },
   "devDependencies": {
-    "typescript":"^2.3.4",
+    "typescript": "^2.3.4",
     "@types/node": "^7.0.22",
     "@types/express": "^4.0.35",
     "@types/body-parser": "~1.16.3",
@@ -36,7 +31,8 @@
     "@types/debug": "~0.0.29",
     "@types/morgan": "~1.7.22",
     "@types/serve-favicon": "~2.2.28",
-    "@types/jade": "~0.0.30"
+    "@types/jade": "~0.0.30",
+    "@types/ws":"3.0.0"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -45,6 +41,13 @@
     "express": "~4.14.0",
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0"
-  }
+    "serve-favicon": "~2.3.0",
+    "express-ws": "~3.0.0"
+  },
+  "description": "主要提供一个express+typescript项目模板，用于用ts开发express web项目",
+  "bugs": {
+    "url": "https://github.com/ruanhaiqiang/express-ts-template/issues"
+  },
+  "homepage": "https://github.com/ruanhaiqiang/express-ts-template#readme",
+  "main": ""
 }

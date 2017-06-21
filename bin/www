@@ -22,6 +22,14 @@ app.set('port', port);
 var server = http.createServer(app);
 
 /**
+ * create ws server
+ */
+const WSRouter = require('./../dist/routes/wsRouter.js');
+var wsRouter = WSRouter.init(server);
+wsRouter.lintenClientConnect();
+
+
+/**
  * Listen on provided port, on all network interfaces.
  */
 
